@@ -8,6 +8,7 @@ import Modal from './Modal';
 import Feature from './Feature';
 import Center from './styled/Center';
 import Icon from './Icon';
+import FlexDiv from './styled/FlexDiv';
 
 interface Props {
 	workExample: WorkExample;
@@ -28,10 +29,12 @@ const Example: FC<Props> = ({ workExample }) => {
 				<Icon src={Browser} alt={workExample.title} />
 			</a>
 			{workExample.features && <StyledLabel>Examples</StyledLabel>}
-			{workExample.features &&
-				workExample.features.map((feature, index) => (
-					<Feature key={index} feature={feature} />
-				))}
+			<div style={{ display: 'flex' }}>
+				{workExample.features &&
+					workExample.features.map((feature, index) => (
+						<Feature key={index} feature={feature} />
+					))}
+			</div>
 			<Modal
 				title={workExample.title}
 				open={modalOpen}
