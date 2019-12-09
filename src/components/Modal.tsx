@@ -41,7 +41,7 @@ const Modal: FC<ModalProps> = ({ title, open, children, onClose }) => {
 			<StyledTile style={styles}>
 				<FlexGrid>
 					{title && <StyledTitle>{title}</StyledTitle>}
-					<img
+					<StyledCloseIcon
 						onClick={() => onClose()}
 						src={IconCancel}
 						alt="Close"
@@ -86,4 +86,8 @@ const StyledTitle = styled.p`
 	color: ${p => p.theme.colorPrimary};
 	font-size: ${p => p.theme.textL};
 	margin: ${p => p.theme.paddingS} 0;
+`;
+
+const StyledCloseIcon = styled.img`
+	cursor: pointer;
 `;
