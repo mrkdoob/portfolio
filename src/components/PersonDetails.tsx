@@ -14,8 +14,8 @@ const PersonDetails: FC<Props> = ({ person }) => {
 	return (
 		<StyledContainer>
 			<StyledTile>
+				<StyledAvatar src={person.avatarUrl} alt="Avatar image" />
 				<Header>{person.name}</Header>
-				<p>{person.birthdateText}</p>
 				<p>{person.interests}</p>
 				<StyledSubHeader>Soft skills</StyledSubHeader>
 				<StyledSubContent>{person.softskills}</StyledSubContent>
@@ -31,12 +31,6 @@ const PersonDetails: FC<Props> = ({ person }) => {
 					<Icon isGitHub={true} alt="GitHub" />
 				</a>
 			</StyledTile>
-			{/* <Tile>
-				<Header>Details</Header>
-				<p>{person.address}</p>
-				<p>{person.phoneNumber}</p>
-				<p>{person.email}</p>
-			</Tile> */}
 		</StyledContainer>
 	);
 };
@@ -51,6 +45,13 @@ const StyledContainer = styled.div`
 	color: ${p => p.theme.colorText};
 `;
 
+const StyledAvatar = styled.img`
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	margin-bottom: ${p => p.theme.paddingM};
+`;
+
 const StyledTile = styled(Tile)`
 	text-align: center;
 `;
@@ -60,10 +61,9 @@ const Header = styled.div`
 	color: ${props => props.theme.colorPrimary};
 `;
 
-const StyledSubHeader = styled.p`
+const StyledSubHeader = styled.h4`
 	margin-top: ${p => p.theme.paddingL};
 	margin-bottom: 0;
-	font-weight: bold;
 	color: ${props => props.theme.colorPrimary};
 `;
 
