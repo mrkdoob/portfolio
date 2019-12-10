@@ -8,7 +8,8 @@ export type Person = {
 };
 
 export const person: Person = {
-	avatarUrl: 'https://imgshare.io/images/2019/12/09/markPicture.th.png',
+	avatarUrl:
+		'https://lh3.googleusercontent.com/oVONXWV8Gb0daGJ4rOc2DKtzoIVP3ZjXmZHRvl5Dmr9OE-W-CyGfl1JoWosz0qAEsZVqcMKJHMb4e4IhnHs98DXAnEEbswSdShEol5Cr4yetoBT41RsKGysjqonSMdPsYI511zo0vWVpxKTKhHnHQdkIyY2QspAS7yUAGM96OiFXni2OcQJOZb49zevedxcCQBnO2YePu474SRzxv0Gu1eZbUiSF_YFe0BZ8BZAsdxbYI6AbdnDKvn6PBgVhh0-M__RxtKe6OZvJp3Ry5X97-NAsD0FKlk-2cKEYKMyNw3JfqX7Lfzk6BoicBkZ_PQ7QWR90FvkSkPMVYOEDbsGZVCJpOqdsXrVV6W3KGZ1oeji-UBM0lGftv128GOIL3vGKjsuKTzI_Gn7Tx1FpSfTW3V-uMpCrAr2imAC0qxblvnAg9MC6FMgkQTP3P3-ohBVYc3G8KTTVlFB3UuaDtclruu49XO--9UgHjyz3q161jw4bOxt6teScFl3XfOnfju2DNoZ0PPhr-8L-yxJunE-1M7A7RHsY9IYmBEBonnVOEp2W8XvNhFspzsSTqmduNaBTseImFNr9i9FYW-gZoTNcaGRRmAmFp4XTM-EBxF0Ox3pC2tnsPJbAjxkC86ki7vFJByXoTWfnkqgXvY6iz1OxwPKfna2H9-RVOtAouwvN7ykcRKQimJ2wlA=w454-h508-no',
 	name: 'Mark van der Laan',
 	email: 'abc@gmail.com',
 	interests:
@@ -54,7 +55,7 @@ const exampleEnvestors = {
 			description:
 				'A tab in the admin panel to allow deal managers and companies to delete and answer questions from investors. I have done both the front-end and back-end work for the admin panel, monitor page (for investors to track their investments) and deal page (for investors to view all deal details).',
 			screenshot:
-				'https://imgshare.io/images/2019/12/09/envestryQuestionScreenshot.md.png',
+				'https://lh3.googleusercontent.com/vbt86K0MgyTWPjtq01ao3SVClyKD6wD2EFDVscWZKG4CZxFJYhThs8_JrqnFk-2v6lYOK2qLUotg0n-1xwaI9vXGHaDM-fLYbBpIu1RrD6ByEoasEzBmla7PXy6EZDAzVFsN44GdAF4uIRThcb-84_P7ZVfcrq6ZW0NLwaHuW_7-BmjuiDa4cM46dgm8ut2hkcf2aXkm2UL4Pjn855c5iywuXls5nsLUY1l3F163hatSshR9Vm7HHTjDkkb2KOjekTRTzg-1emad2cGP8bRpsdHz9Yx5Sb9KlvQAtU2HVle7AozWlvMm0YLqE5lr1OTeI2JU-Dskc6Da2Rd8u-g4X4O4Rm6SAMb0xO6StA9DplUjnkbR3J_SBT6RNF6lzzMEr0DXKrN9a2ON5acQqn703KRssXzNUazKBugmU8-vsQc6AsM6KxbWHnmQyOUa_4qyvT73zxSpZn5ytxRc6gJqBtdK-5GxuPoDoAJJmV6VbR2WihrtRisOP-1utiusYypHtYQHADGikfhPk71b3EdqOFb2lSPUlZYaSdQlVndOmq7k31FXZB8Q_sLt78bN0e_5r_dfrjSlyYIzVHu5gC4nhNINZDW1Oij8t8yJm3PWF2CM7ylmk9fkGgWqm5i31oN2FVnlO19apY-fe62Aytf5B_IYisUM75szvIh-JljhL_dM5ko3BwfKrw=w2792-h1840-no',
 			url: 'https://gist.github.com/mrkdoob/48e25bd5eb2a7d8f771b06d5faa93e4e',
 		},
 		{
@@ -62,7 +63,7 @@ const exampleEnvestors = {
 			description:
 				'A tab in the admin panel to allow deal managers and companies to upload, edit and delete important documents. I have done both the front-end and back-end work for the admin panel, monitor page (for investors to track their investments) and deal page (for investors to view all deal details).',
 			screenshot:
-				'https://imgshare.io/images/2019/12/09/envestryDocScreenshot.md.png',
+				'https://lh3.googleusercontent.com/utSIzxjnD9-YLXJG4b6PHxa2p5hovSXTqCsDRVb7Sqf6DPcmyvRoZnVHj4EVmY80XiZ4kS7A7CEZEEqPcoCjFNMlkUVQmyUq9YVQWbPbjbV2RKbVXYmy-Gyi6r3Y4TwSR0pUU8hdxFcMniSgChGiu_--YdEX0sLBoeejAUquf8iIU0EPISm_HOwMvdcebIH22UQ549j3b_ZWPHvEZgJYDz7vW1wyJBRXpzZfs3-2cjNSvgpCrr3UR_r0n_t3UOULKYCPXfMWsJdMDzdPXnbw47R9Vvd9Rz6Zio0zPloYnQUCwKpaeKkxk7goJ2SBPrMMzlj7zzXE2VMkqi63KOj7O50F42wcMUCq1USz004RAlSq0uN7yYMuFP0nxtakHorTxRC7qLia_AMTB5bUZkWGbluaYf6SN3brMLNDwM2JNGNUy6rzLHeAI7jQ2pQ3sy-cQI0zlx6O6rs_qMQPJlNCHu4gIBwZcuFZU74ks2cvCS7_GUUMtoya_-o6MsUyUqtx3p8QGA60moLb_n8Q-qwjGicjJ7ectTfVvfvDJIDWyhCaCGyP4VytKh2EQdppsHscDWpqqzPlhpD3d8tBr896Fc8OliNSu4FdCHpqXYdligOrO6A7Gc5jFQ62pvUIyobScEB59EyYwLu9LeO17RTe3PlJTdCDmzZT85hoAcqEncB43afwdftjBg=w2010-h1236-no',
 			url: 'https://gist.github.com/mrkdoob/b71e62fa33a8344542f80614b5eaed19',
 		},
 	],
@@ -71,7 +72,8 @@ const exampleEnvestors = {
 const exampleCommonGrounds = {
 	title: 'Common Grounds',
 	url: 'https://app.commongrounds.co/',
-	cover: 'https://imgshare.io/images/2019/12/09/screenshotCG.md.png',
+	cover:
+		'https://lh3.googleusercontent.com/s_E-k0zzDeXpUYH9zPFc9iSdGl5CIhlW2HgWOhnBPgzgdXMp3vluBj6uRP4r0l2F1XLHF34O0Q1nr0X_PGDYo83eL1mO5gka-DE_yJgLW-B9r6AAt27B1RWlkUw-YS3g4I1AYDTgOL5VCge-dHjuDX_9mQV6LLM7TmPFcSKhmIZ0doUId3VNJ81SbTxAt4TdK1kytEkni1_EwUDcZcCyhpUuQdk_A0VfXScVU2tcHsHHeq2HEkvrjnMnWleoLE_u_FhhXQC9u_2NHDFQJnU_ss94PJtLWtXZUuRnWKqz3-sCTbVOheQ0R13lEf7BABBfTQ6GIteN1fnq4a1UlouKu5O6-QcYxIw1WIKUfwynrr3mJFqQZ1a52wcx6nU46iWEdC9MQW5lqClmx_EAac1cLyt-9Bkaa9ncuH5MLxQxQFq6AKLg6JCfBQjHd3mDmvbIaNBBinDNHOx_W5Jr7WQrtdNs0hSKcJr36LXd-gUp-4BCDe8o4BtjPEz4oZMkD3avCqiRw3qX6SYnShrt7SOiwZ9xBfZpwf3lPk1R_701wmIXLwd73JmF0GX2Ej0y75k0tmVvcn7SoS2K91lSVi-fiYWUf6f5DqoaIDN-5ksDClIjLDz8AKCBelL6bzPOyy3pzLKofje45tnMIZ73y1vC-YFzq8NSSM1vNd_emHpCGARRjKjrjRagHA=w1600-h977-no',
 	description:
 		'Common Grounds allows freelancers, entrepreneurs & start-ups to access the most interesting co-working spaces. I have helped them develop some front-end features such as: implementing a customer booking ticket design, designing and creating a bookings dashboard, synchronize bookings with Google calendar & a data visualisation dashboard.',
 };
@@ -80,7 +82,8 @@ const exampleUXDesign = {
 	title: 'Reconnect UX Design: a self-development course MVP (WIP)',
 	url:
 		'https://xd.adobe.com/view/ab3927f5-dd86-43cd-6379-0d733d4cd586-dd08/?fullscreen',
-	cover: 'https://imgshare.io/images/2019/12/09/reconnectScreenshot.md.png',
+	cover:
+		'https://lh3.googleusercontent.com/j0MW_HqOH_lgXafQ8SM2jLUVzsSASgqKC59uvoSI39FAQumijClfz7-HQp6evE27qAdLFnA5VfD_dc5gg5fD6VZ-bakWYePM6-SgzeJpgW7JfLUXnn-cJuHkQ1I-LYS2gDNx22czEhJJZUtkJ3qZmVKG8cI7RUXbVjcV3vHHOEhDKWdHXWFz1mzqQDIA-kH8NPZsCPcS5GzpGfQG1rRJu_5nNMip0LIZSkAQd2PoKCMa9rJWJrT884-TZ5e6wQJtQUh7yMlJg52Em4zNu-Tt8yRF8fyUPxzTw2G_TRljmyTRA0SPAtKbaiC6WRgi_FmnRCr88dXrgW-RSlsIqQKkn85okUxWd2Ev7O4srjI5a50mKltMfiEHH76TFWnkEwqDN79JlD5W72gT3oJ6R-ob9h5Juixetyc5VquJ9sWthB6eGkPjbPMTpQ8heUEq0YdGEb_fTH8wFLmxLM3fkvQ66XQGhe2XOAmNhI7suZVOubwR3XZLNUDwBXxEnv3iDxDdXEBLqLNiKQ2NymjS0pMvMrgz1jMPess6kWxMWgxd9-5YjDTKFvwMW6E2dCHun0VaYfpRdrHHnIkoxdOdIqrEeV1GDP_BUxU9Rg5Q6gt5xm5IrDs5p6C-QPhoZDLZjS_ste7c9-FpXKOSCaBngCugTp9esu89mytaVqHtKngPOt1iTSVGuvBVbA=s250-k-no',
 	description:
 		'Even though there are many self-development courses, books and content. Many people struggle with actually changing their behaviour and following the tips and strategies that self-development courses offer. Achieving behavioural change through the use of information technology is a difficult but very interesting challenge. \n The current MVP design is based on different theories and uses different phenomena and elements such as social contagion, pressure, and gamification to try to motivate the user to perform the tasks given to them in any given course.',
 };
