@@ -46,6 +46,7 @@ const StyledContainer = styled.div`
 `;
 
 const StyledAvatar = styled.img`
+	object-fit: cover;
 	border-radius: 50%;
 	width: 80px;
 	height: 80px;
