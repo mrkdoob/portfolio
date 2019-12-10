@@ -10,8 +10,7 @@ interface Props {
 	feature: {
 		title: string;
 		description: string;
-		screenshot: string;
-		isVertical?: boolean;
+		screenshot?: string;
 		url: string;
 	};
 }
@@ -20,7 +19,7 @@ const Feature: FC<Props> = ({ feature }) => {
 	const [modalOpen, setModalOpen] = useState<boolean>(false);
 
 	return (
-		<div>
+		<div style={{ paddingRight: '5px' }}>
 			<StyledScreenshot
 				onClick={() => setModalOpen(true)}
 				src={feature.screenshot}
@@ -31,10 +30,7 @@ const Feature: FC<Props> = ({ feature }) => {
 				onClose={() => setModalOpen(false)}
 			>
 				<Center>
-					<StyledCoverImage
-						isVertical={feature.isVertical}
-						src={feature.screenshot}
-					/>
+					<StyledCoverImage src={feature.screenshot} />
 				</Center>
 				<StyledText>{feature.description}</StyledText>
 				<a href={feature.url} target="_blank">
@@ -47,11 +43,10 @@ const Feature: FC<Props> = ({ feature }) => {
 
 export default memo(Feature);
 
-const StyledCoverImage = styled.img<{ isVertical?: boolean }>`
-	object-fit: ${p => !p.isVertical && 'cover'};
+const StyledCoverImage = styled.img`
 	padding: 0;
-	width: ${p => (p.isVertical ? '70%' : '100%')};
-	height: ${p => (p.isVertical ? '500px' : '400px')};
+	width: 70%;
+	height: 50%;
 	margin-top: ${p => p.theme.paddingL};
 	box-shadow: ${p => p.theme.boxShadow};
 	border-radius: ${p => p.theme.borderRadius};
@@ -75,7 +70,7 @@ const StyledScreenshot = styled.img`
 	padding: 0;
 	width: 120px;
 	height: 120px;
-	/* margin-top: ${p => p.theme.paddingS}; */
+	margin-right: ${p => p.theme.paddingM};
 	box-shadow: ${p => p.theme.boxShadow};
 	border-radius: ${p => p.theme.borderRadius};
 `;
