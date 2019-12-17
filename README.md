@@ -4,11 +4,7 @@ Work in progress!
 
 The goal is to showcase some projects and features without showing entire repos.
 
-# React Boilerplate
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d422a988-e927-472b-96bb-eb5a0b20d578/deploy-status)](https://app.netlify.com/sites/nq-react-boilerplate/deploys)
-
-[Check it out](https://nq-react-boilerplate.netlify.com/)
+[Check it out](https://marks-portfolio.netlify.com)
 
 ### Includes:
 
